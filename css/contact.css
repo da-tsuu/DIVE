@@ -1,0 +1,35 @@
+.form {
+ float: right;
+ margin-right: 30px;
+}
+
+.form th{
+  font-size: 1.1rem;
+  padding-top: 3rem;
+  float: right;
+  height: 7rem;
+  width: 150px;
+}
+
+input[type="text"] {
+  width: 480px;
+}
+
+textarea {
+  width: 480px;
+  height: 5rem;
+}
+
+input[type="submit"] {
+  width: 80px;
+  height: 40px;
+  background-color: pink;
+  font-size: 2rem;
+  position: relative;
+  left: 220px;
+  text-align: center;
+}
+
+input[type="submit"]:hover{
+  opacity: 0.5;
+}
